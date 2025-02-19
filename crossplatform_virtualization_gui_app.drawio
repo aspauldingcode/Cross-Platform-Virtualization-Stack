@@ -63,6 +63,22 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="19" value="Intel Mac Support&#10;(Linux VMs only via Virtualization.framework)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="920" y="220" width="150" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="Apple Silicon Support&#10;(Linux + macOS VMs via Virtualization.framework)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="220" width="150" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="3" target="19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="3" target="20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
