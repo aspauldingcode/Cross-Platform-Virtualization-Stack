@@ -7,25 +7,25 @@
         <mxCell id="2" value="Core Logic/Configuration (Rust)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="770" y="18" width="250" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="macOS Backend" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="3" value="macOS Backend&#10;(Virtualization.framework via Rust FFI)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1000" y="132" width="150" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Linux Backend" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="4" value="Linux Backend&#10;(KVM/QEMU via rust-vmm/kvm-ioctls)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1182" y="132" width="150" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="Windows Backend" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="5" value="Windows Backend&#10;(WHPX via Windows API + Rust bindings)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1364" y="132" width="150" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="Android Backend" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="6" value="Android Backend&#10;(AVF via JNI/Rust-Android NDK)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1546" y="132" width="150" height="54" as="geometry" />
         </mxCell>
         <mxCell id="7" value="Cross-Platform GUI (Iced/Rust)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="8" y="18" width="233" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="iOS Backend" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="8" value="iOS Backend&#10;(UTM/QEMU-TCG via Swift-Rust interop)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1728" y="132" width="150" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="9" value="VM Configuration Schema" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="9" value="VM Configuration Schema&#10;(YAML/JSON)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="400" y="18" width="214" height="54" as="geometry" />
         </mxCell>
         <mxCell id="12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="7" target="9">
