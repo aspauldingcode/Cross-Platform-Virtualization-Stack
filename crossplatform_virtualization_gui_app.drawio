@@ -22,7 +22,7 @@
         <mxCell id="7" value="Cross-Platform GUI (Iced/Rust)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="8" y="18" width="233" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="iOS Backend&#10;(UTM/QEMU-TCG via Swift-Rust interop)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="8" value="iOS Backend&#10;(QEMU-TCG JIT via Sideloading)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1728" y="132" width="150" height="54" as="geometry" />
         </mxCell>
         <mxCell id="9" value="VM Configuration Schema&#10;(YAML/JSON)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
